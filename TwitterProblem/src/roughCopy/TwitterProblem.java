@@ -1,3 +1,4 @@
+package roughCopy;
 public class TwitterProblem {
 	
 	public static int calculateCountOfMaxElements(int arr[],int max){
@@ -27,10 +28,10 @@ public class TwitterProblem {
 	}
 	
 	public static void main(String[] args) {
-		
-		//int arr[]={2,5,1,2,3,4,7,7,6};
+		//int[] arr = {8,3, 5, 1, 2, 3, 4, 7, 7, 6,1,1,2,7};
+		int arr[]={2,5,1,2,3,4,7,7,6,2,3,6};
 		//int arr[]={4,3,6,2,7,8,4,1,8,2,5,8,6,1,8};
-		int arr[]={16,15,7,10,19,8,10,1,5,2,11,19,5,1,7,9,13};
+		//int arr[]={16,15,7,10,19,8,10,1,5,2,11,19,5,1,7,9,13};
 		for(int i=0;i<arr.length;i++) System.out.print(arr[i]+" ");
 		
 		int max=searchMaxElement(arr);
